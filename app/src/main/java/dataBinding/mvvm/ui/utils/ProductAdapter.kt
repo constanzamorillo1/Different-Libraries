@@ -3,7 +3,7 @@ package dataBinding.mvvm.ui.utils
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tesis.databinding.ActivityLayoutItemBinding
+import com.example.differentlibraries.databinding.ActivityLayoutItemBinding
 import dataBinding.mvvm.core.Product
 
 class ProductAdapter(private var products: MutableList<Product>) : RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {

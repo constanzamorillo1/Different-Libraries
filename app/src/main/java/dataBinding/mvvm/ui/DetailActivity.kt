@@ -3,8 +3,8 @@ package dataBinding.mvvm.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.example.tesis.R
-import com.example.tesis.databinding.ActivityDetailBinding
+import com.example.differentlibraries.R
+import com.example.differentlibraries.databinding.ActivityDetailBinding
 import dataBinding.mvvm.core.Product
 
 class DetailActivity : AppCompatActivity() {

@@ -7,10 +7,6 @@
         <variable
             name="product"
             type="dataBinding.mvvm.core.Product" />
-
-        <variable
-            name="handler"
-            type="dataBinding.mvvm.ui.utils.TestListener"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
