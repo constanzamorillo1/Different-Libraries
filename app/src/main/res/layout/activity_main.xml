@@ -10,7 +10,7 @@
         android:id="@+id/firstActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="FIRST ACTIVITY"
+        android:text="ONE WAY BINDING"
         android:layout_marginTop="24dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="RECYCLER ACTIVITY"
+        android:text="TWO WAY BINDING"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="THIRD ACTIVITY"
+        android:text="BINDING ADAPTER ACTIVITY"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +44,17 @@
         app:layout_constraintTop_toBottomOf="@id/secondActivity"
         />
 
-
+    <Button
+        android:id="@+id/recyclerActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="RECYCLER ACTIVITY"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thirdActivity"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

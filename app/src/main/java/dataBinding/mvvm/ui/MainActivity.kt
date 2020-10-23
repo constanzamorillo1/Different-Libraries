@@ -16,6 +16,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         secondActivity.setOnClickListener {
+            startActivity(Intent(this, SecondActivity::class.java))
+        }
+
+        thirdActivity.setOnClickListener {
+            startActivity(Intent(this, ThirdActivity::class.java))
+        }
+
+        recyclerActivity.setOnClickListener {
             startActivity(Intent(this, RecyclerActivity::class.java))
         }
     }
