@@ -4,9 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools">
     
     <data>
+        <import type="java.util.List"/>
+        <variable
+            name="list"
+            type="List&lt;String>"/>
         <variable
             name="user"
             type="dataBinding.mvvm.core.User"/>
+        <variable
+            name="handler"
+            type="dataBinding.mvvm.ui.utils.Handlers" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,7 +25,7 @@
             android:id="@+id/textNombre"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@{user.name}"
+            android:text="@{list.get(0)}"
             android:textAlignment="center"
             android:textSize="16sp"
             android:layout_marginTop="36dp"
@@ -33,6 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@{user.lastName}"
+            android:onClick="@{handler::onClickTextView}"
             android:textAlignment="center"
             android:textSize="16sp"
             android:layout_marginTop="24dp"

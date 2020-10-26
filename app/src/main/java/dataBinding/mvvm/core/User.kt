@@ -7,8 +7,7 @@ import com.example.differentlibraries.BR
 data class User(
     val name: String,
     val lastName: String,
-    val age: Int
-)
+    val age: Int)
 
 class SecondUser : BaseObservable() {
 
